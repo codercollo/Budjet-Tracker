@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Budjet Tracker</title>
+  </head>
+  <body>
+
+
+    <div id="container_one">
+
+      <div class="budjet_expenses_container">
+        <div class="budjet_container">
+          <h3>Budget</h3>
+          <div class="input_container">
+            <input type="text" placeholder="Enter Total Amount" class="">
+            <button id="budjet_btn">Set Budjet</button>
+          </div>
+
+          <div class="expenses_container">
+            <h3>Expenses</h3>
+           <div class="input_container">
+             <div class="title">
+              <input type="text" placeholder="Enter Title of Product" class="title_input">
+             </div>
+              
+              <div class="cost">
+                  <input type="text" placeholder="Enter Cost of Product" class="cost_input">
+                  <button id="amount_btn">Check Amount</button>
+              </div>
+
+            </div>
+        </div>
+      
+
+        <div id="container_two">
+
+          <div class="analytics_container">
+            <div class="total_bugdet">
+              <h4>Total Bugdet</h4>
+              <p><span>0shs</span></p>
+            </div>
+            <div class="expenses">
+              <h4>Total Expenses</h4>
+              <p><span>0shs</span></p>
+            </div>
+            <div class="balance">
+              <h4>Balance</h4>
+              <p><span>0shs</span></p>
+            </div>
+        </div>
+        <div class="Expense List">
+          <h4>Expense List</h4>
+          <p>Food:10000shs</p>
+        </div>
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
